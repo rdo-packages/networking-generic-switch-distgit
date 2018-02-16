@@ -16,24 +16,24 @@ BuildArch:      noarch
 BuildRequires:  git
 BuildRequires:  openstack-macros
 BuildRequires:  python2-devel
-BuildRequires:  python-pbr
+BuildRequires:  python2-pbr
 # for documentation
-BuildRequires:  python-oslo-sphinx
-BuildRequires:  python-sphinx
+BuildRequires:  python2-oslo-sphinx
+BuildRequires:  python2-sphinx
 # for unit tests
 BuildRequires:  /usr/bin/ostestr
-BuildRequires:  python-mock
-BuildRequires:  python-fixtures
-BuildRequires:  python-netmiko
+BuildRequires:  python2-mock
+BuildRequires:  python2-fixtures
+BuildRequires:  python2-netmiko
 BuildRequires:  python-neutron-lib
 BuildRequires:  python-neutron-tests
-BuildRequires:  python-oslo-config
-BuildRequires:  python-oslo-i18n
-BuildRequires:  python-oslo-log
-BuildRequires:  python-six
-BuildRequires:  python-stevedore
+BuildRequires:  python2-oslo-config
+BuildRequires:  python2-oslo-i18n
+BuildRequires:  python2-oslo-log
+BuildRequires:  python2-six
+BuildRequires:  python2-stevedore
 BuildRequires:  python-tenacity
-BuildRequires:  python-tooz
+BuildRequires:  python2-tooz
 
 %description
 Pluggable Modular Layer 2 Neutron Mechanism driver implementing functionality
@@ -60,15 +60,15 @@ ostestr --path %{srcname}/tests/unit
 Summary:        %{common_summary}
 %{?python_provide:%python_provide python2-%{pkgname}}
 
-Requires:       python-netmiko >= 1.2.5
-Requires:       python-neutron-lib >= 1.11.0
-Requires:       python-oslo-config >= 5.1.0
-Requires:       python-oslo-i18n >= 3.15.3
-Requires:       python-oslo-log >= 3.30.0
-Requires:       python-six >= 1.10.0
-Requires:       python-stevedore >= 1.20.0
+Requires:       python2-netmiko >= 1.2.5
+Requires:       python-neutron-lib >= 1.13.0
+Requires:       python2-oslo-config >= 2:5.1.0
+Requires:       python2-oslo-i18n >= 3.15.3
+Requires:       python2-oslo-log >= 3.36.0
+Requires:       python2-six >= 1.10.0
+Requires:       python2-stevedore >= 1.20.0
 Requires:       python-tenacity >= 3.2.1
-Requires:       python-tooz >= 1.58.0
+Requires:       python2-tooz >= 1.58.0
 
 %description -n python2-%{pkgname}
 Pluggable Modular Layer 2 Neutron Mechanism driver implementing functionality
@@ -81,9 +81,9 @@ This package contains the plugin itself.
 Summary:        %{common_summary} - tests
 
 Requires:       python2-%{pkgname} = %{version}-%{release}
-Requires:       python-mock >= 2.0.0
+Requires:       python2-mock >= 2.0.0
 Requires:       python-neutron-tests
-Requires:       python-fixtures >= 3.0.0
+Requires:       python2-fixtures >= 3.0.0
 
 %description -n python2-%{pkgname}-tests
 Pluggable Modular Layer 2 Neutron Mechanism driver implementing functionality
