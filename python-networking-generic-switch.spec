@@ -4,8 +4,8 @@
 %global common_summary Pluggable Modular Layer 2 Neutron Mechanism driver
 
 Name:           python-%{pkgname}
-Version:        XXX
-Release:        XXX
+Version:        1.0.0
+Release:        1%{?dist}
 Summary:        %{common_summary}
 
 License:        ASL 2.0
@@ -118,3 +118,6 @@ This package contains the documentation.
 
 
 %changelog
+* Thu Feb 22 2018 RDO <dev@lists.rdoproject.org> 1.0.0-1
+- Update to 1.0.0
+
