@@ -118,4 +118,3 @@ This package contains the documentation.
 
 
 %changelog
-
