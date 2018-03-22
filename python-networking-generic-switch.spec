@@ -55,7 +55,6 @@ ostestr --path %{srcname}/tests/unit
 %install
 %py2_install
 
-
 %package -n python2-%{pkgname}
 Summary:        %{common_summary}
 %{?python_provide:%python_provide python2-%{pkgname}}
@@ -76,7 +75,6 @@ required for use-cases like OpenStack Ironic multi-tenancy mode.
 
 This package contains the plugin itself.
 
-
 %package -n python2-%{pkgname}-tests
 Summary:        %{common_summary} - tests
 
@@ -91,7 +89,6 @@ required for use-cases like OpenStack Ironic multi-tenancy mode.
 
 This package contains the unit tests.
 
-
 %package doc
 Summary:        %{common_summary} - documentation
 
@@ -100,7 +97,6 @@ Pluggable Modular Layer 2 Neutron Mechanism driver implementing functionality
 required for use-cases like OpenStack Ironic multi-tenancy mode.
 
 This package contains the documentation.
-
 
 %files -n python2-%{pkgname}
 %license LICENSE
@@ -115,6 +111,5 @@ This package contains the documentation.
 %files doc
 %license LICENSE
 %doc doc/build/html README.rst
-
 
 %changelog
