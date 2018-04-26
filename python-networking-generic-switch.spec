@@ -42,6 +42,11 @@ required for use-cases like OpenStack Ironic multi-tenancy mode.
 %prep
 %autosetup -n %{pkgname}-%{upstream_version} -S git
 %py_req_cleanup
+# We do not package the tempest plugin coming with n-g-s for two reasons:
+# 1. It's not a real tempest plugin, but rather a functional test that only
+#    works in the devstack-based CI.
+# 2. Its package is called "tempest_plugin", which is too generic.
+sed -i '/tempest\.test_plugins/,+1d' setup.cfg
 
 %build
 %py2_build
