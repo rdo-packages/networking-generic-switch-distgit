@@ -11,6 +11,7 @@ Summary:        %{common_summary}
 License:        ASL 2.0
 URL:            https://pypi.python.org/pypi/%{pkgname}
 Source0:        https://tarballs.openstack.org/%{pkgname}/%{pkgname}-%{upstream_version}.tar.gz
+Patch0001:      0001-Remove-the-tempest-entry-point-for-functional-tests.patch
 
 BuildArch:      noarch
 BuildRequires:  git

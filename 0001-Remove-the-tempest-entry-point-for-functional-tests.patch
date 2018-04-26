@@ -1,0 +1,27 @@
+From 1caa6119ccf4f4910d7ca9c7f62c24fcbfdb2d05 Mon Sep 17 00:00:00 2001
+From: Dmitry Tantsur <divius.inside@gmail.com>
+Date: Thu, 26 Apr 2018 15:16:03 +0200
+Subject: [PATCH] Remove the tempest entry point for functional tests
+
+These tests are not really normal tempest tests. They rely on specific
+environment and will not work outside of the networking-generic-switch CI.
+---
+ setup.cfg | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/setup.cfg b/setup.cfg
+index 9bd403d..0c484fe 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -26,8 +26,6 @@ generic_switch.devices =
+     netmiko_arista_eos = networking_generic_switch.devices.netmiko_devices.arista:AristaEos
+     netmiko_dell_force10 = networking_generic_switch.devices.netmiko_devices.dell:DellNos
+     netmiko_brocade_fastiron = networking_generic_switch.devices.netmiko_devices.brocade:BrocadeFastIron
+-tempest.test_plugins =
+-    ngs_tests = tempest_plugin.plugin:NGSTempestPlugin
+ 
+ [pbr]
+ autodoc_index_modules = True
+-- 
+2.14.3
+
