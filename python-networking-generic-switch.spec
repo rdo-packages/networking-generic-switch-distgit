@@ -61,7 +61,7 @@ Summary:        %{common_summary}
 %{?python_provide:%python_provide python2-%{pkgname}}
 
 Requires:       python2-netmiko >= 2.0.2
-Requires:       python-neutron-lib >= 1.13.0
+Requires:       python-neutron-lib >= 1.18.0
 Requires:       python2-oslo-config >= 2:5.2.0
 Requires:       python2-oslo-i18n >= 3.15.3
 Requires:       python2-oslo-log >= 3.36.0
