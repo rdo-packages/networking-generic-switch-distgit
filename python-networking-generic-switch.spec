@@ -25,14 +25,14 @@ BuildRequires:  /usr/bin/ostestr
 BuildRequires:  python2-mock
 BuildRequires:  python2-fixtures
 BuildRequires:  python2-netmiko
-BuildRequires:  python-neutron-lib
+BuildRequires:  python2-neutron-lib
 BuildRequires:  python-neutron-tests
 BuildRequires:  python2-oslo-config
 BuildRequires:  python2-oslo-i18n
 BuildRequires:  python2-oslo-log
 BuildRequires:  python2-six
 BuildRequires:  python2-stevedore
-BuildRequires:  python-tenacity
+BuildRequires:  python2-tenacity
 BuildRequires:  python2-tooz
 
 %description
@@ -61,13 +61,13 @@ Summary:        %{common_summary}
 %{?python_provide:%python_provide python2-%{pkgname}}
 
 Requires:       python2-netmiko >= 2.0.2
-Requires:       python-neutron-lib >= 1.13.0
+Requires:       python2-neutron-lib >= 1.18.0
 Requires:       python2-oslo-config >= 2:5.2.0
 Requires:       python2-oslo-i18n >= 3.15.3
 Requires:       python2-oslo-log >= 3.36.0
 Requires:       python2-six >= 1.10.0
 Requires:       python2-stevedore >= 1.20.0
-Requires:       python-tenacity >= 4.4.0
+Requires:       python2-tenacity >= 4.4.0
 Requires:       python2-tooz >= 1.58.0
 
 %description -n python2-%{pkgname}
