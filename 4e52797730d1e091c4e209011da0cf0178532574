@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_980a6820",
+        "filename": "python-networking-generic-switch.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-05T07:05:21Z",
+      "side": 1,
+      "message": "stestr-%{pyver}",
+      "range": {
+        "startLine": 38,
+        "startChar": 25,
+        "endLine": 38,
+        "endChar": 31
+      },
+      "revId": "4e52797730d1e091c4e209011da0cf0178532574",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_780d5436",
+        "filename": "python-networking-generic-switch.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-05T07:05:21Z",
+      "side": 1,
+      "message": "%{pyver_build}",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 10
+      },
+      "revId": "4e52797730d1e091c4e209011da0cf0178532574",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_3810fc4d",
+        "filename": "python-networking-generic-switch.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-05T07:05:21Z",
+      "side": 1,
+      "message": "%{pyver_bin}",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 12
+      },
+      "revId": "4e52797730d1e091c4e209011da0cf0178532574",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_181f7860",
+        "filename": "python-networking-generic-switch.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-05T07:05:21Z",
+      "side": 1,
+      "message": "stestr-%{pyver} --test-path %{srcname}/tests/unit run",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 36
+      },
+      "revId": "4e52797730d1e091c4e209011da0cf0178532574",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_5815f03d",
+        "filename": "python-networking-generic-switch.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-05T07:05:21Z",
+      "side": 1,
+      "message": "%{pyver_install}",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 12
+      },
+      "revId": "4e52797730d1e091c4e209011da0cf0178532574",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
