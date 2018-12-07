@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_134bdbca",
+        "filename": "python-networking-generic-switch.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 565
+      },
+      "writtenOn": "2018-12-07T14:35:23Z",
+      "side": 1,
+      "message": "Done, thanks!",
+      "parentUuid": "9abe1de1_93ac8ba1",
+      "range": {
+        "startLine": 121,
+        "startChar": 2,
+        "endLine": 121,
+        "endChar": 17
+      },
+      "revId": "12ca814b365d2d80d1c3e665604c25d6d876cb94",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_73afb794",
         "filename": "python-networking-generic-switch.spec",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2018-12-07T05:27:14Z",
       "side": 1,
       "message": "ditto",
+      "range": {
+        "startLine": 122,
+        "startChar": 2,
+        "endLine": 122,
+        "endChar": 17
+      },
+      "revId": "12ca814b365d2d80d1c3e665604c25d6d876cb94",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_f34507b3",
+        "filename": "python-networking-generic-switch.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 565
+      },
+      "writtenOn": "2018-12-07T14:35:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_73afb794",
       "range": {
         "startLine": 122,
         "startChar": 2,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_d31323b7",
+        "filename": "python-networking-generic-switch.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 565
+      },
+      "writtenOn": "2018-12-07T14:35:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_53971348",
+      "range": {
+        "startLine": 123,
+        "startChar": 11,
+        "endLine": 123,
+        "endChar": 26
+      },
+      "revId": "12ca814b365d2d80d1c3e665604c25d6d876cb94",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_33925f58",
         "filename": "python-networking-generic-switch.spec",
         "patchSetId": 2
@@ -82,6 +154,30 @@
       "writtenOn": "2018-12-07T05:27:14Z",
       "side": 1,
       "message": "ditto",
+      "range": {
+        "startLine": 127,
+        "startChar": 2,
+        "endLine": 127,
+        "endChar": 17
+      },
+      "revId": "12ca814b365d2d80d1c3e665604c25d6d876cb94",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_b3166fa5",
+        "filename": "python-networking-generic-switch.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 565
+      },
+      "writtenOn": "2018-12-07T14:35:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_33925f58",
       "range": {
         "startLine": 127,
         "startChar": 2,
