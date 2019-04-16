@@ -32,7 +32,7 @@ BuildRequires:  openstack-macros
 BuildRequires:  python%{pyver}-devel
 BuildRequires:  python%{pyver}-pbr
 # for documentation
-BuildRequires:  python%{pyver}-oslo-sphinx
+BuildRequires:  python%{pyver}-openstackdocstheme
 BuildRequires:  python%{pyver}-sphinx
 # for unit tests
 BuildRequires:  /usr/bin/stestr-%{pyver}
