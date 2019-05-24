@@ -64,7 +64,7 @@ required for use-cases like OpenStack Ironic multi-tenancy mode.
 rm -rf doc/build/html/.{doctrees,buildinfo}
 
 %check
-stestr-%{pyver} --test-path %{srcname}/tests/unit run
+PYTHON=%{pyver_bin} stestr-%{pyver} --test-path %{srcname}/tests/unit run
 
 %install
 %{pyver_install}
