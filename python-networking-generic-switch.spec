@@ -14,6 +14,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global srcname networking_generic_switch
 %global pkgname networking-generic-switch
+%global with_doc 1
 %global common_summary Pluggable Modular Layer 2 Neutron Mechanism driver
 
 
@@ -31,9 +32,6 @@ BuildRequires:  git
 BuildRequires:  openstack-macros
 BuildRequires:  python%{pyver}-devel
 BuildRequires:  python%{pyver}-pbr
-# for documentation
-BuildRequires:  python%{pyver}-openstackdocstheme
-BuildRequires:  python%{pyver}-sphinx
 # for unit tests
 BuildRequires:  /usr/bin/stestr-%{pyver}
 BuildRequires:  python%{pyver}-mock
@@ -59,9 +57,11 @@ required for use-cases like OpenStack Ironic multi-tenancy mode.
 
 %build
 %{pyver_build}
+%if 0%{?with_doc}
 %{pyver_bin} setup.py build_sphinx -b html
 # remove the sphinx-build leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
+%endif
 
 %check
 PYTHON=%{pyver_bin} stestr-%{pyver} --test-path %{srcname}/tests/unit run
@@ -108,14 +108,19 @@ required for use-cases like OpenStack Ironic multi-tenancy mode.
 This package contains the unit tests.
 
 
+%if 0%{?with_doc}
 %package doc
 Summary:        %{common_summary} - documentation
+
+BuildRequires:  python%{pyver}-openstackdocstheme
+BuildRequires:  python%{pyver}-sphinx
 
 %description doc
 Pluggable Modular Layer 2 Neutron Mechanism driver implementing functionality
 required for use-cases like OpenStack Ironic multi-tenancy mode.
 
 This package contains the documentation.
+%endif
 
 
 %files -n python%{pyver}-%{pkgname}
@@ -128,9 +133,11 @@ This package contains the documentation.
 %license LICENSE
 %{pyver_sitelib}/%{srcname}/tests
 
+%if 0%{?with_doc}
 %files doc
 %license LICENSE
 %doc doc/build/html README.rst
+%endif
 
 
 %changelog
