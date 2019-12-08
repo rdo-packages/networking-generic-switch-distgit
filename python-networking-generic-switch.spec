@@ -142,3 +142,4 @@ This package contains the documentation.
 
 %changelog
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/networking-generic-switch/commit/?id=a5332caa2822aad9ed9bea6e754999265dc9bd0c
