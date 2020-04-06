@@ -58,7 +58,7 @@ required for use-cases like OpenStack Ironic multi-tenancy mode.
 %build
 %{pyver_build}
 %if 0%{?with_doc}
-%{pyver_bin} setup.py build_sphinx -b html
+sphinx-build-%{pyver} -b html doc/source doc/build/html
 # remove the sphinx-build leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
@@ -114,6 +114,7 @@ Summary:        %{common_summary} - documentation
 
 BuildRequires:  python%{pyver}-openstackdocstheme
 BuildRequires:  python%{pyver}-sphinx
+BuildRequires:  python%{pyver}-sphinxcontrib-apidoc
 
 %description doc
 Pluggable Modular Layer 2 Neutron Mechanism driver implementing functionality
