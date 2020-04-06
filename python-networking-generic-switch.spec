@@ -114,6 +114,7 @@ Summary:        %{common_summary} - documentation
 
 BuildRequires:  python%{pyver}-openstackdocstheme
 BuildRequires:  python%{pyver}-sphinx
+BuildRequires:  python%{pyver}-sphinxcontrib-apidoc
 
 %description doc
 Pluggable Modular Layer 2 Neutron Mechanism driver implementing functionality
