@@ -42,7 +42,6 @@ BuildRequires:  python%{pyver}-neutron-tests
 BuildRequires:  python%{pyver}-oslo-config
 BuildRequires:  python%{pyver}-oslo-i18n
 BuildRequires:  python%{pyver}-oslo-log
-BuildRequires:  python%{pyver}-six
 BuildRequires:  python%{pyver}-stevedore
 BuildRequires:  python%{pyver}-tenacity
 BuildRequires:  python%{pyver}-tooz
@@ -75,13 +74,12 @@ Summary:        %{common_summary}
 %{?python_provide:%python_provide python%{pyver}-%{pkgname}}
 
 Requires:       openstack-neutron-common >= 1:13.0.0
-Requires:       python%{pyver}-netmiko >= 2.0.2
+Requires:       python%{pyver}-netmiko >= 2.4.1
 Requires:       python%{pyver}-neutron-lib >= 1.18.0
 Requires:       python%{pyver}-oslo-config >= 2:5.2.0
 Requires:       python%{pyver}-oslo-i18n >= 3.15.3
 Requires:       python%{pyver}-oslo-log >= 3.36.0
 Requires:       python%{pyver}-oslo-utils >= 3.33.0
-Requires:       python%{pyver}-six >= 1.10.0
 Requires:       python%{pyver}-stevedore >= 1.20.0
 Requires:       python%{pyver}-tenacity >= 4.4.0
 Requires:       python%{pyver}-tooz >= 1.58.0
