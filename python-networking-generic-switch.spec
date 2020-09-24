@@ -69,8 +69,8 @@ Requires:       python3-oslo-i18n >= 3.15.3
 Requires:       python3-oslo-log >= 3.36.0
 Requires:       python3-oslo-utils >= 3.33.0
 Requires:       python3-stevedore >= 1.20.0
-Requires:       python3-tenacity >= 4.4.0
-Requires:       python3-tooz >= 1.58.0
+Requires:       python3-tenacity >= 6.0.0
+Requires:       python3-tooz >= 2.5.1
 
 %description -n python3-%{pkgname}
 Pluggable Modular Layer 2 Neutron Mechanism driver implementing functionality
