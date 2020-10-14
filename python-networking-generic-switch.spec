@@ -1,4 +1,3 @@
-%global milestone .0rc1
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global srcname networking_generic_switch
@@ -9,15 +8,13 @@
 
 Name:           python-%{pkgname}
 Version:        4.0.0
-Release:        0.1%{?milestone}%{?dist}
+Release:        1%{?dist}
 Summary:        %{common_summary}
 
 License:        ASL 2.0
 URL:            https://pypi.python.org/pypi/%{pkgname}
 Source0:        https://tarballs.openstack.org/%{pkgname}/%{pkgname}-%{upstream_version}.tar.gz
 
-#
-# patches_base=4.0.0.0rc1
 #
 
 BuildArch:      noarch
@@ -133,6 +130,9 @@ This package contains the documentation.
 
 
 %changelog
+* Wed Oct 14 2020 RDO <dev@lists.rdoproject.org> 4.0.0-1
+- Update to 4.0.0
+
 * Fri Sep 25 2020 RDO <dev@lists.rdoproject.org> 4.0.0-0.1.0rc1
 - Update to 4.0.0.0rc1
 
