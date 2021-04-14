@@ -1,4 +1,3 @@
-%global milestone .0rc1
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
 %global sources_gpg_sign 0x5d2d1e4fb8d38e6af76c50d53d4fec30cf5ce3da
 
@@ -11,14 +10,12 @@
 
 Name:           python-%{pkgname}
 Version:        5.0.0
-Release:        0.1%{?milestone}%{?dist}
+Release:        1%{?dist}
 Summary:        %{common_summary}
 
 License:        ASL 2.0
 URL:            https://pypi.python.org/pypi/%{pkgname}
 Source0:        https://tarballs.openstack.org/%{pkgname}/%{pkgname}-%{upstream_version}.tar.gz
-#
-# patches_base=5.0.0.0rc1
 #
 
 # Required for tarball sources verification
@@ -149,6 +146,9 @@ This package contains the documentation.
 
 
 %changelog
+* Wed Apr 14 2021 RDO <dev@lists.rdoproject.org> 5.0.0-1
+- Update to 5.0.0
+
 * Fri Mar 26 2021 RDO <dev@lists.rdoproject.org> 5.0.0-0.1.0rc1
 - Update to 5.0.0.0rc1
 
