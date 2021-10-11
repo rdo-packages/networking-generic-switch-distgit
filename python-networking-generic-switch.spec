@@ -9,8 +9,8 @@
 
 
 Name:           python-%{pkgname}
-Version:        XXX
-Release:        XXX
+Version:        6.0.0
+Release:        1%{?dist}
 Summary:        %{common_summary}
 
 License:        ASL 2.0
@@ -144,3 +144,6 @@ This package contains the documentation.
 
 
 %changelog
+* Mon Oct 11 2021 RDO <dev@lists.rdoproject.org> 6.0.0-1
+- Update to 6.0.0
+
