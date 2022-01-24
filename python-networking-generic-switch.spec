@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global srcname networking_generic_switch
@@ -9,8 +9,8 @@
 
 
 Name:           python-%{pkgname}
-Version:        4.0.0
-Release:        2%{?dist}
+Version:        4.0.1
+Release:        1%{?dist}
 Summary:        %{common_summary}
 
 License:        ASL 2.0
@@ -146,6 +146,9 @@ This package contains the documentation.
 
 
 %changelog
+* Mon Jan 24 2022 RDO <dev@lists.rdoproject.org> 4.0.1-1
+- Update to 4.0.1
+
 * Wed Oct 21 2020 Joel Capitao <jcapitao@redhat.com> 4.0.0-2
 - Enable sources tarball validation using GPG signature.
 
