@@ -50,6 +50,24 @@
       "message": "So the RDO folks likely need to chime in here. It looks like in previous merged changes the rdopkg failure has been ignored. The logs are too far gone to verify it is exactly the same. The dependency on neutron is a long standing one dating back to 2018, and ML2 drivers must be installed along side neutron as a plugin, so I\u0027m not really sure we care about it.",
       "revId": "2bf5d8f7024603ce688ca45bcd18426fa9b766c1",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc7055da_fdedc503",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-02-23T15:50:26Z",
+      "side": 1,
+      "message": "I\u0027ll recheck it.",
+      "parentUuid": "1f98ae03_622b436f",
+      "revId": "2bf5d8f7024603ce688ca45bcd18426fa9b766c1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
