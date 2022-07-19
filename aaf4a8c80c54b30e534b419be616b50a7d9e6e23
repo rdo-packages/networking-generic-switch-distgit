@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fbe58e2_ab227950",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 558
+      },
+      "writtenOn": "2022-07-19T09:27:22Z",
+      "side": 1,
+      "message": "current version available for CS9 is 3.3.3\nthis needs to be bypassed in the config until a newer version is available",
+      "revId": "aaf4a8c80c54b30e534b419be616b50a7d9e6e23",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
