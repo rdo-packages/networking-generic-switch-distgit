@@ -78,7 +78,7 @@ Summary:        %{common_summary}
 %{?python_provide:%python_provide python3-%{pkgname}}
 
 Requires:       openstack-neutron-common >= 1:13.0.0
-Requires:       python3-netmiko >= 2.4.1
+Requires:       python3-netmiko >= 4.1.1
 Requires:       python3-neutron-lib >= 1.18.0
 Requires:       python3-oslo-config >= 2:5.2.0
 Requires:       python3-oslo-i18n >= 3.15.3
@@ -144,3 +144,4 @@ This package contains the documentation.
 
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/networking-generic-switch/commit/7f2d44241f66ee2dbf4a7caaf9388e9a2070a849
