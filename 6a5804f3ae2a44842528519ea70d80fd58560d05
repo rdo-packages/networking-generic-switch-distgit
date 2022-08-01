@@ -16,6 +16,24 @@
       "message": "we don\u0027t have  ftbfs in python-generic-switch now, do we need this?",
       "revId": "6a5804f3ae2a44842528519ea70d80fd58560d05",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51dd76d5_30c02bb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-08-01T09:11:10Z",
+      "side": 1,
+      "message": "rdo trunk status is ok now, this commit was on last weeks status. fix for this particular ftbfs, was new version of netmiko.\nabandoning.",
+      "parentUuid": "5154f1a7_22f9053a",
+      "revId": "6a5804f3ae2a44842528519ea70d80fd58560d05",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
