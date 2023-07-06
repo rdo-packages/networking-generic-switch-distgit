@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "baceb639_58ca08a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-07-06T07:54:29Z",
+      "side": 1,
+      "message": "FTR, the sphinxcontrib-seqdiag is adding bunch of ~8 BRs needed for the documentation building",
+      "revId": "0a46a88ce3944525407a0ab6139f5adef1e252f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
