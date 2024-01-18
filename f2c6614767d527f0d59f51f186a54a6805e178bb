@@ -16,6 +16,24 @@
       "message": "recheck we reverted the patch",
       "revId": "f2c6614767d527f0d59f51f186a54a6805e178bb",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "702fa594_28279e58",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-01-18T16:53:36Z",
+      "side": 1,
+      "message": "I\u0027m going to abandon this FTBFS, thank you for the recheck",
+      "parentUuid": "d5e8fda0_a006ebdf",
+      "revId": "f2c6614767d527f0d59f51f186a54a6805e178bb",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
