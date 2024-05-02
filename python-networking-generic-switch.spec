@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0xa7475c5f2122fec3f90343223fe3bf5aad1080e4
+%global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global srcname networking_generic_switch
@@ -9,7 +9,7 @@
 
 
 Name:           python-%{pkgname}
-Version:        7.1.0
+Version:        7.1.1
 Release:        1%{?dist}
 Summary:        %{common_summary}
 
@@ -144,6 +144,9 @@ This package contains the documentation.
 
 
 %changelog
+* Thu May 02 2024 RDO <dev@lists.rdoproject.org> 7.1.1-1
+- Update to 7.1.1
+
 * Mon Mar 20 2023 RDO <dev@lists.rdoproject.org> 7.1.0-1
 - Update to 7.1.0
 
