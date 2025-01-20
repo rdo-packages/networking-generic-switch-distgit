@@ -103,7 +103,6 @@ This package contains the plugin itself.
 Summary:        %{common_summary} - tests
 
 Requires:       python3-%{pkgname} = %{version}-%{release}
-Requires:       python3-mock >= 2.0.0
 Requires:       python3-neutron-tests
 Requires:       python3-fixtures >= 3.0.0
 
