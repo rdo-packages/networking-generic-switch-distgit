@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
+%global sources_gpg_sign 0x22284f69d9eccdf3df7819791c711af193ff8e54
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 # we are excluding some BRs from automatic generator
@@ -15,7 +15,7 @@
 
 
 Name:           python-%{pkgname}
-Version:        7.2.1
+Version:        7.2.2
 Release:        1%{?dist}
 Summary:        %{common_summary}
 
@@ -144,6 +144,9 @@ This package contains the documentation.
 
 
 %changelog
+* Mon Feb 17 2025 RDO <dev@lists.rdoproject.org> 7.2.2-1
+- Update to 7.2.2
+
 * Thu May 09 2024 RDO <dev@lists.rdoproject.org> 7.2.1-1
 - Update to 7.2.1
 
