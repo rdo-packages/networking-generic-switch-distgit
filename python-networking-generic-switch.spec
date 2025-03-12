@@ -10,7 +10,8 @@
 %endif
 %global srcname networking_generic_switch
 %global pkgname networking-generic-switch
-%global with_doc 1
+# Doc building disabled until seqdiag is removed upstream
+%global with_doc 0
 %global common_summary Pluggable Modular Layer 2 Neutron Mechanism driver
 
 
