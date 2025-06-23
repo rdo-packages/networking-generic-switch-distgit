@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e289ca7_f8070e01",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2025-06-23T11:40:17Z",
+      "side": 1,
+      "message": "Merging to get antelope baremetal component repo fixed",
+      "revId": "41da36751d704fc2c2851595f1236858ef3699a5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
