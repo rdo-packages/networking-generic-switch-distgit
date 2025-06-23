@@ -46,6 +46,7 @@ BuildRequires:  python3-stevedore
 BuildRequires:  python3-tenacity
 BuildRequires:  python3-tooz
 
+
 %description
 Pluggable Modular Layer 2 Neutron Mechanism driver implementing functionality
 required for use-cases like OpenStack Ironic multi-tenancy mode.
