@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Jason Joyce <fuzzball81+rdo@gmail.com>
+Workflow+1: Jason Joyce <fuzzball81+rdo@gmail.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Thu, 26 Jun 2025 22:07:47 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/networking-generic-switch-distgit/+/57904
+Project: openstack/networking-generic-switch-distgit
+Branch: refs/heads/rpm-master
