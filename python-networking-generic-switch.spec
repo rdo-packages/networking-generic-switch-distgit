@@ -16,7 +16,6 @@
 %global with_doc 0
 %global common_summary Pluggable Modular Layer 2 Neutron Mechanism driver
 
-
 Name:           python-%{pkgname}
 Version:        XXX
 Release:        XXX
