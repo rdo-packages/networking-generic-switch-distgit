@@ -151,3 +151,4 @@ This package contains the documentation.
 * Wed Sep 18 2024 RDO <dev@lists.rdoproject.org> 7.4.0-1
 - Update to 7.4.0
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/networking-generic-switch/commit/1067c920cae0a6730719c941d18f654a601adb1d
