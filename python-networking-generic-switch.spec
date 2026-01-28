@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
+%global sources_gpg_sign 0x22284f69d9eccdf3df7819791c711af193ff8e54
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 # we are excluding some BRs from automatic generator
@@ -14,7 +14,7 @@
 %global common_summary Pluggable Modular Layer 2 Neutron Mechanism driver
 
 Name:           python-%{pkgname}
-Version:        7.4.0
+Version:        7.4.1
 Release:        1%{?dist}
 Summary:        %{common_summary}
 
@@ -143,6 +143,9 @@ This package contains the documentation.
 
 
 %changelog
+* Wed Jan 28 2026 RDO <dev@lists.rdoproject.org> 7.4.1-1
+- Update to 7.4.1
+
 * Wed Sep 18 2024 RDO <dev@lists.rdoproject.org> 7.4.0-1
 - Update to 7.4.0
 
