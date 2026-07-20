@@ -17,7 +17,7 @@
 %global common_summary Pluggable Modular Layer 2 Neutron Mechanism driver
 
 Name:           python-%{pkgname}
-Version:        7.5.0
+Version:        7.6.0
 Release:        1%{?dist}
 Summary:        %{common_summary}
 
@@ -145,6 +145,9 @@ This package contains the documentation.
 
 
 %changelog
+* Mon Jul 20 2026 RDO <dev@lists.rdoproject.org> 7.6.0-1
+- Update to 7.6.0
+
 * Tue Mar 18 2025 RDO <dev@lists.rdoproject.org> 7.5.0-1
 - Update to 7.5.0
 
